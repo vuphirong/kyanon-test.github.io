@@ -1,0 +1,115 @@
+<section>
+  <div class="se-container">
+    <div class="section-title">
+      <h1>
+        TWO-PIZZA TEAM <br/>
+        WITH KYANON DIGITAL
+      </h1>
+    </div>
+    <div class="section-content">
+      <div class="left-content">
+        <img src="../assets/images/build-your-kickass.png" alt="contact image" class="img-fluid">
+      </div>
+      <div class="right-content">
+        <h4>HIEN PHAN (Ms)</h4>
+        <h5>REGIONAL BUSINESS DIRECTOR</h5>
+        <ul class="list-contact-info">
+          <li class="item">
+            <div class="icon">
+              <img src="../assets/images/mail-ic.png" alt="mail icon" class="inner">
+            </div>
+            <p>
+              <a href="mailto:hien.phan@kyanon.digital">hien.phan@kyanon.digital</a>
+            </p>
+            <div class="clearfix"></div>
+          </li>
+          <li class="item">
+            <div class="icon">
+              <img src="../assets/images/loca-ic.png" alt="loca icon">
+            </div>
+            <p>
+              Singapore: WeWork Beach Centre, 15 Beach Rd, #02-01 Singapore 189677 
+              <span style="margin-top: -12px;" class="visi-768"></span><br/>
+              Vietnam: 294-296 Truong Sa, Ward 2, Phu Nhuan District, HCMC, Vietnam
+            </p>
+            <div class="clearfix"></div>
+          </li>
+          <li class="item">
+            <div class="icon">
+              <img src="../assets/images/link-ic.png" alt="link icon">
+            </div>
+            <p>
+              Website: kyanon.digital/the-two-pizza-team
+            </p>
+            <div class="clearfix"></div>
+          </li>
+        </ul>
+        <a (click)="onContact()" class="btn-contact btn-red">
+          Contact us
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div #popup class="popup">
+  <div class="content">
+    <div class="pop-tit-mb">
+      <h2>Meet Us</h2>
+    </div>
+    <div class="popup-left">
+      <img src="../assets/images/popup-info.png" alt="meet us">
+    </div>
+    <div class="popup-right">
+      <div class="button-close"> 
+        <img (click)="onClose()" src="../assets/images/close.png" alt="close">
+      </div>
+      <div class="pop-tit">
+        <h2>Meet Us</h2>
+      </div>
+      <div class="pop-inner-form">
+        <form action="" #contactForm="ngForm">
+          <div class="field-group" #txtName>
+            <input type="text" placeholder="Your name..." name="name"
+            required ngModel #name="ngModel">
+            <div *ngIf="name.invalid && (name.dirty || name.touched)" class="noti-err">
+              <div *ngIf="name.errors.required">
+                This field is required.
+              </div>
+            </div>
+          </div>
+          <div class="field-group" >
+            <input type="text" placeholder="Your email..." name="email"
+            required ngModel #email="ngModel">
+            <div *ngIf="email.invalid && (email.dirty || email.touched)" class="noti-err">
+              <div *ngIf="email.errors.required">
+                This field is required.
+              </div>
+            </div>
+          </div>
+          <div class="field-group">
+            <input type="text" placeholder="Your phone..." name="phone"
+            required ngModel #phone="ngModel">
+            <div *ngIf="phone.invalid && (phone.dirty || phone.touched)" class="noti-err">
+              <div *ngIf="phone.errors.required">
+                This field is required.
+              </div>
+            </div>
+          </div>
+          <div class="field-group" > 
+            <input type="text" placeholder="Your message..." name="message"
+            required ngModel #message="ngModel">
+            <div *ngIf="message.invalid && (message.dirty || message.touched)" class="noti-err">
+              <div *ngIf="message.errors.required">
+                This field is required.
+              </div>
+            </div>
+          </div>
+          <div class="submit"> 
+            <input type="submit" (click)="onSubmit(contactForm)" value="Send" class="btn-red btn-send">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

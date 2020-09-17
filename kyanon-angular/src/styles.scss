@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@font-face {
+    font-family: Geo-BA;
+    src: url("https://kyanon.digital/the-two-pizza-team/assets/fonts/Geometric415BT-BlackA.eot");
+    src: url("./assets/fonts/Geometric415BT-BlackA.woff2") format("woff2"), 
+    url("./assets/fonts/Geometric415BT-BlackA.woff") format("woff"), 
+    url("./assets/fonts/Geometric415BT-BlackA.ttf") format("truetype"), 
+    url("https://kyanon.digital/the-two-pizza-team/assets/fonts/Geometric415BT-BlackA.svg#Geometric415BT-BlackA") format("svg"), 
+    url("https://kyanon.digital/the-two-pizza-team/assets/fonts/Geometric415BT-BlackA.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Monst-B;
+    src: url("https://kyanon.digital/the-two-pizza-team/assets/fonts/Montserrat-Bold.eot");
+    src: url("./assets/fonts/Montserrat-Bold.woff2") format("woff2"), 
+    url("./assets/fonts/Montserrat-Bold.woff") format("woff"), 
+    url("./assets/fonts/Montserrat-Bold.ttf") format("truetype"),
+     url("https://kyanon.digital/the-two-pizza-team/assets/fonts/Montserrat-Bold.svg#Montserrat-Bold") format("svg"), 
+     url("https://kyanon.digital/the-two-pizza-team/assets/fonts/Montserrat-Bold.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: Monst-M;
+    src: url("https://kyanon.digital/the-two-pizza-team/assets/fonts/Montserrat-Medium.eot");
+    src: url("./assets/fonts/Montserrat-Medium.woff2") format("woff2"), 
+    url("./assets/fonts/Montserrat-Medium.woff") format("woff"), 
+    url("./assets/fonts/Montserrat-Medium.ttf") format("truetype"), 
+    url("https://kyanon.digital/the-two-pizza-team/assets/fonts/Montserrat-Medium.svg#Montserrat-Medium") format("svg"),
+    url("https://kyanon.digital/the-two-pizza-team/assets/fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family: Monst-SB;
+    src: url("https://kyanon.digital/the-two-pizza-team/assets/fonts/Montserrat-SemiBold.eot");
+    src: url("./assets/fonts/Montserrat-SemiBold.woff2") format("woff2"), 
+    url("./assets/fonts/Montserrat-SemiBold.woff") format("woff"), 
+    url("./assets/fonts/Montserrat-SemiBold.ttf") format("truetype"), 
+    url("https://kyanon.digital/the-two-pizza-team/assets/fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold") format("svg"), 
+    url("https://kyanon.digital/the-two-pizza-team/assets/fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal; 
+}
